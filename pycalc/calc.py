@@ -1,7 +1,7 @@
 def compute(expression):
     values = expression.split()
 
-    num0 = int(values[0])
+    num0 = float(values[0])
     operator = values[1]
     num1 = int(values[2])
 
